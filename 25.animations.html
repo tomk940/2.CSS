@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+        <style>
+        
+            .bluebox{
+                background-color: skyblue;
+                height: 100px;
+                width: 100px;
+                -webkit-animation: myanimation 3s;
+            }
+            
+            @keyframes myanimation{
+                from{background: black}
+                to{background: skyblue}
+            }
+
+            
+             .yellowbox{
+                background-color: yellow;
+                 height: 100px;
+                 width: 100px;
+                 position: relative;
+                -webkit-animation: myanimation2 3s;
+            }
+            
+            @keyframes myanimation2{
+                0% {background: black; left:0px; top:0px}
+                25% {background: brown; left:200px; top:0px}
+                55% {background: red; left:200px; top:200px}
+                75% {background: orange; left:0px; top:200px}
+                100% {background: yellow; left:0px; top:0px}
+                
+                
+            }
+            
+
+            
+            
+             .greenbox{
+                background-color: greenyellow;
+                 height: 100px;
+                 width: 100px;   
+            }
+
+
+            
+            
+            
+            
+            .awesome{
+                color: white;
+                font-size: 2em;
+            }
+        
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <h1>Animations</h1>
+        
+        
+        <div class="bluebox">
+            <p>Facebook</p>
+        </div>
+        
+        <div class="yellowbox">
+            <p>Apple</p>
+        </div>
+        
+        <div class="greenbox">
+            <p>Microsoft</p>
+        </div>
+
+        
+        
+    </body>
+
+</html>

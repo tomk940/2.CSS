@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transitions</title>
+        <style>
+        
+            .bluebox{
+                background-color: skyblue;
+                height: 100px;
+                width: 100px;
+                transition: width 2s;
+                
+            }
+            
+            .bluebox:hover{
+                width: 300px;
+            }
+            
+             .yellowbox{
+                background-color: yellow;
+                 height: 100px;
+                 width: 100px;
+                 transition: background-color 3s;
+                 
+            }
+            
+            .yellowbox:hover{
+                background-color: skyblue;
+            }
+            
+            
+            
+             .greenbox{
+                background-color: greenyellow;
+                 height: 100px;
+                 width: 100px;
+                 transition: transform 1.5s;
+            }
+            .greenbox:hover{
+                transform: rotate(720deg);
+            }
+            
+            
+            .blackbox{
+                 background: linear-gradient(160deg, red, white, black);
+                height: 100px;
+                width: 100px;
+                
+            }
+            
+            .greybox{
+                 background: linear-gradient(to left, rgba(0,0,255,1), rgba(0,0,255,0.1));
+                height: 100px;
+                width: 100px;
+                
+            }
+            
+            .whitebox{
+                 background: radial-gradient( blue 15%, white, skyblue 80%);
+                height: 100px;
+                width: 100px;
+                
+            }
+            
+            
+            
+            
+            .awesome{
+                color: white;
+                font-size: 2em;
+            }
+        
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <h1>Transitions</h1>
+        
+        
+        <div class="bluebox">
+            <p>Stretch</p>
+        </div>
+        
+        <div class="yellowbox">
+            <p>Change Color</p>
+        </div>
+        
+        <div class="greenbox">
+            <p>Spin</p>
+        </div>
+        
+        <div class="blackbox">
+            <p>degrees</p>
+        </div>
+        
+        <div class="greybox">
+            <p>Opacity</p>
+        </div>
+        
+        <div class="whitebox">
+            <p>Radial</p>
+        </div>
+        
+        
+    </body>
+
+</html>
